@@ -37,7 +37,7 @@ export default function Home() {
   // Ref for auto-scrolling
   const chatEndRef = useRef<HTMLDivElement>(null);
 
-  const BACKEND = process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8000";
+  const BACKEND = process.env.NEXT_PUBLIC_BACKEND_URL || "http://0.0.0.0:8000";
 
   // Auto-scroll logic
   const scrollToBottom = () => {
