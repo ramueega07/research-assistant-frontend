@@ -125,9 +125,9 @@ export default function Home() {
           </div>
         </div>
         
-        <div className="pt-6 border-t text-[10px] text-slate-400 text-center">
+        {/* <div className="pt-6 border-t text-[10px] text-slate-400 text-center">
           Powered by Gemini & Groq RAG
-        </div>
+        </div> */}
       </div>
 
       {/* Main Chat Area */}
